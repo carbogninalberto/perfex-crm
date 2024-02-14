@@ -5,8 +5,6 @@ services:
     image: perfex
     depends_on:
       - mysql
-    ports:
-      - "888:80"
     volumes:
       - perfex_data:/var/www/html/
   mysql:
